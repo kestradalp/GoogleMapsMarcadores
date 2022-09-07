@@ -20,7 +20,7 @@ class MainActivity :
     OnMapReadyCallback {
 
     lateinit var mMap: GoogleMap
-    val url = "https://my-json-server.typicode.com/kestradalp/marcadoresUteq/markedsUteq"
+    val url = "https://my-json-server.typicode.com/kestradalp/GoogleMapsPractice/JsonAPIs/markersUteq"
     var markerList: List<MarkerFaculty> = java.util.ArrayList<MarkerFaculty>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
